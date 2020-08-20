@@ -1,0 +1,34 @@
+//Colores base
+$negro: black;
+$negroClaro: #34495e;
+$blanco: white;
+$seleccion: rgba(52, 73, 94, 0.5);
+
+//Principales
+$azul: #2980b9;
+$azulClaro: #3498db;
+$azulMedianoche: #2c3e50;
+$grisClaro: #ecf0f1;
+$grisMedio: #ccc;
+
+//Fuente
+$openSans: "Open Sans", sans-serif;
+
+//Imagenes de fondo
+$imgEscritorio: url("../assets/img/bg/bg.jpg") $grisMedio no-repeat fixed center
+  top;
+
+//Atributos extendidos
+%display-flex {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+%transicion {
+  transition: ease-in-out 0.2s;
+}
+
+%borde {
+  border-radius: 5px;
+}

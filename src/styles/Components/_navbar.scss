@@ -1,0 +1,18 @@
+.menu {
+  a {
+    color: $blanco;
+    padding: 15px 20px !important;
+    margin: 0 4px;
+    @extend %borde;
+    @extend %transicion;
+    text-align: center;
+    cursor: pointer;
+    &:hover {
+      background: rgba(29, 128, 187, 0.5);
+    }
+  }
+  &--login {
+    font-size: 1.4em;
+    cursor: pointer;
+  }
+}

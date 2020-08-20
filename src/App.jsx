@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { Fragment } from "react";
+import Preloader from "./Components/preloader";
+import Header from "./Components/header";
 
 function App() {
   return (
-    <div>
-      <h1 id="prueba">Hola Mundo</h1>
-      <i className="fab fa-amazon-pay"></i>
-    </div>
+    <Fragment>
+      <main className="principal">
+        <Header />
+      </main>
+    </Fragment>
   );
 }
 

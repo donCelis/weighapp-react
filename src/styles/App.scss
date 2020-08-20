@@ -1,8 +1,57 @@
-@import 'vars';
+@import "./variables/vars";
 
-body{
-  display: flex;
-  flex-flow: row wrap;
-  justify-items: center;
-  align-items: center;
+
+html {
+  scroll-behavior: smooth;
 }
+
+body {
+  font-family: $openSans;
+  width: 100%;
+  background: $azulMedianoche;
+  overflow: hidden;
+}
+
+button{
+  outline: 0 !important;
+}
+
+//Estilos generales
+.hamburger-inner,
+.hamburger-inner:after,
+.hamburger-inner:before {
+  background: $blanco !important;
+}
+
+.mayus {
+  text-transform: uppercase;
+}
+
+.capita {
+  text-transform: capitalize;
+}
+
+.nombre {
+  font-weight: 500;
+}
+
+.linea {
+  height: 3px;
+  background: $azul;
+  margin: 10px auto;
+}
+
+.alerta {
+  color: $blanco;
+  font-weight: 100;
+  text-align: center;
+}
+
+.txtBlanco {
+  color: $blanco;
+  font-weight: 100;
+}
+
+@import "./Components/preloader";
+@import "./Components/header";
+@import "./Components/navbar";
