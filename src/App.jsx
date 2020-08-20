@@ -1,15 +1,11 @@
-import React, { Fragment } from "react";
-import Preloader from "./Components/preloader";
-import Header from "./Components/header";
+import React from "react";
+import Home from "./Pages/home";
 
-function App() {
+
+const App = () => {
   return (
-    <Fragment>
-      <main className="principal">
-        <Header />
-      </main>
-    </Fragment>
+    <Home/>
   );
-}
+};
 
 export default App;

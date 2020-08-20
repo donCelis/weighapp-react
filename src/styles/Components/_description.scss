@@ -1,0 +1,46 @@
+#inicio {
+  background: $imgEscritorio;
+  background-size: cover;
+  padding: 20% 0 15%;
+  @include flex($direction:row, $align: center, $wrap: wrap, );
+
+  .description {
+    @include flex($direction:row, $align: center, $justify: space-evenly, $wrap: nowrap);
+    width: 85%;
+    margin: 0 auto;
+    &__logo {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.4);
+      padding: rem(15px) rem(10px);
+      border-radius: rem(10px);
+      border: rem(2px) solid $blanco;
+    }
+    &__text {
+      flex-basis: 50%;
+      padding: rem(20px);
+      color: $blanco;
+      font-weight: 300;
+      font-size: em(24px);
+      span {
+        font-weight: 900;
+        font-size: em(25.6px);
+      }
+      &--lh-1{
+        line-height: 1.2;
+      }
+    }
+  }
+
+  @media screen and (max-width: $medium) {
+    background-attachment: inherit;
+    .description {
+      @include flex($direction: column);
+      &__text {
+        font-size: em(19.2px);
+        &--lh-1{
+          line-height: 1.5;
+        }
+      }
+    }
+  }
+}

@@ -1,35 +1,25 @@
 import React from "react";
 
-function Navbar() {
+const Navbar = (props) => {
+  let names = ["inicio", "nosotros", "galeria", "contacto"];
+
   return (
     <div className="menu navbar-collapse collapse" id="mobile">
       <ul className="navbar-nav ml-auto">
-        <li className="nav-item">
-          <a href="#inicio" className="nav-link">
-            Inicio
-          </a>
-        </li>
-        <li className="nav-item">
-          <a href="#galeria" className="nav-link">
-            Galería
-          </a>
-        </li>
-        <li className="nav-item">
-          <a href="#nosotros" className="nav-link">
-            Nosotros
-          </a>
-        </li>
-        <li className="nav-item">
-          <a href="#contacto" className="nav-link">
-            Contacto
-          </a>
-        </li>
+        {names.map((name, index) => (
+          <li key={index} className="nav-item">
+            <a href={`#${name}`} className="nav-link" aria-label={name}>
+              {name}
+            </a>
+          </li>
+        ))}
+
         <li className="nav-item">
           <a href="#" className="nav-link menu--login fas fa-user-circle"></a>
         </li>
       </ul>
     </div>
   );
-}
+};
 
 export default Navbar;

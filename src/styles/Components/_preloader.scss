@@ -10,6 +10,9 @@
 
 //Precarga
 .opacidad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100%;
   width: 100%;
   background: $azulMedianoche;
@@ -17,11 +20,13 @@
   left: 0;
   top: 0;
   z-index: 9999;
+  overflow: hidden;
+  text-align: center;
   .precarga {
-    width: 80px;
-    height: 80px;
-    border: 2px solid $blanco;
-    border-top: 3px solid $azul;
+    width: rem(80px);
+    height: rem(80px);
+    border: rem(2px) solid $blanco;
+    border-top: rem(3px) solid $azul;
     border-radius: 100%;
     position: absolute;
     top: 0;
@@ -31,4 +36,21 @@
     margin: auto;
     animation: girar 1s infinite ease-in-out;
   }
+}
+
+@keyframes ocultar{
+  from{
+    opacity: 1;
+    visibility: visible;
+    display: flex;
+  }
+  to{
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+  }
+}
+
+.ocultar{
+  animation: ocultar 0.8s forwards ease;
 }

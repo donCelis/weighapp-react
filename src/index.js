@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Router from "./Routes/Router";
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -7,13 +8,9 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "hamburgers/dist/hamburgers.min.css";
 import "./styles/App.scss";
 
-import './firebase'
-
-import App from "./App";
-
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router />
   </React.StrictMode>,
   document.getElementById("root")
 );

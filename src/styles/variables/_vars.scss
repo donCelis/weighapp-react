@@ -1,0 +1,36 @@
+//Fuente
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+
+$openSans                   :"Open Sans", sans-serif;
+$baseSystemFontSize         : 16px;
+
+$weight-100                 : 100; //light
+$weight-400                 : 400; // regular
+$weight-500                 : 500; // medium
+$weight-600                 : 600; // semi bold
+$weight-700                 : 700; // bold
+
+%transicion {
+  transition: ease-in-out 0.2s;
+}
+
+%borde {
+  border-radius: 5px;
+}
+
+//Colores base
+$negro                      : black;
+$negroClaro                 : #34495e;
+$blanco                     : white;
+$seleccion                  : rgba(52, 73, 94, 0.5);
+
+//Principales
+$azul                       : #2980b9;
+$azulClaro                  : #3498db;
+$azulMedianoche             : #2c3e50;
+$grisClaro                  : #ecf0f1;
+$grisMedio                  : #ccc;
+
+
+//Imagenes de fondo
+$imgEscritorio              : url("../../assets/img/bg/bg.jpg") $grisMedio no-repeat fixed center top;

@@ -1,18 +1,24 @@
 .menu {
+  
   a {
     color: $blanco;
-    padding: 15px 20px !important;
-    margin: 0 4px;
+    padding: rem(15px) rem(20px) !important;
+    margin: 0 rem(4px);
     @extend %borde;
     @extend %transicion;
     text-align: center;
-    cursor: pointer;
+    text-transform: capitalize;
     &:hover {
       background: rgba(29, 128, 187, 0.5);
     }
   }
   &--login {
-    font-size: 1.4em;
-    cursor: pointer;
+    font-size: em(22.4px);
+  }
+  @media screen and (max-width: $medium) {
+    margin-top: rem(16px);
+    a{
+      margin-bottom: rem(10px);
+    }
   }
 }

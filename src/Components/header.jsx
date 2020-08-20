@@ -1,18 +1,18 @@
-import React, { useEffect } from "react";
-import Navbar from "./navbar";
+import React from "react";
 
-function Header() {
-  useEffect(() => {
-    document.querySelector(".hamburger").addEventListener("click", function () {
-      this.classList.toggle("is-active");
-    });
-  }, []);
+const Header = (props) => {
+
+  const addClass = (e) => {
+    e.currentTarget.classList.toggle("is-active");
+  }
+
   return (
     <header id="menu" className="header">
       <div className="container">
         <nav className="navbar navbar-expand-lg">
           <h1 className="navbar-brand header__logo">Weigh App</h1>
           <button
+            onClick={addClass}
             className="hamburger hamburger--spin navbar-toggler"
             type="button"
             data-toggle="collapse"
@@ -24,8 +24,7 @@ function Header() {
               <span className="hamburger-inner"></span>
             </span>
           </button>
-
-          <Navbar />
+          {props.children}
         </nav>
       </div>
     </header>

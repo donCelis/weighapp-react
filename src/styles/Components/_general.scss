@@ -1,0 +1,57 @@
+::-webkit-scrollbar-thumb {
+  background-color: $azul;
+}
+
+::-webkit-scrollbar-track {
+  background-color: $blanco;
+}
+
+::-webkit-scrollbar {
+  width: rem(6px);
+  height: rem(6px);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $openSans;
+  background: $azulMedianoche;
+}
+
+button {
+  outline: 0 !important;
+}
+
+//Estilos generales
+.hamburger-inner,
+.hamburger-inner:after,
+.hamburger-inner:before {
+  background: $blanco !important;
+}
+
+.mayus {
+  text-transform: uppercase;
+}
+
+.capita {
+  text-transform: capitalize;
+}
+
+.linea {
+  height: rem(3px);
+  background: $azul;
+  margin: rem(10px) auto;
+}
+
+.alerta {
+  color: $blanco;
+  font-weight: $weight-100;
+  text-align: center;
+}
+
+.txtBlanco {
+  color: $blanco;
+  font-weight: $weight-100;
+}

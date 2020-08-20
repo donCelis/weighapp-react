@@ -5,8 +5,8 @@
 
   &__logo {
     margin: 0;
-    font-size: 1.5em;
-    font-weight: 100;
+    font-size: em(24px);
+    font-weight: $weight-100 ;
   }
   .navbar-toggler {
     padding: 0;
