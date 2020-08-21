@@ -1,7 +1,7 @@
 import React from "react";
 
 const Navbar = (props) => {
-  let names = ["inicio", "nosotros", "galeria", "contacto"];
+  let names = ["inicio", "galería", "nosotros"];
 
   return (
     <div className="menu navbar-collapse collapse" id="mobile">
