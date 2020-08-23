@@ -1,21 +1,18 @@
 import React from "react";
+import NavItem from "./navItem";
+import { Link } from "react-router-dom";
 
-const Navbar = (props) => {
+const Navbar = () => {
   let names = ["inicio", "galería", "nosotros"];
 
   return (
     <div className="menu navbar-collapse collapse" id="mobile">
       <ul className="navbar-nav ml-auto">
         {names.map((name, index) => (
-          <li key={index} className="nav-item">
-            <a href={`#${name}`} className="nav-link" aria-label={name}>
-              {name}
-            </a>
-          </li>
+          <NavItem key={index} data={name} />
         ))}
-
         <li className="nav-item">
-          <a href="#" className="nav-link menu--login fas fa-user-circle"></a>
+          <Link className="nav-link menu--login fas fa-user-circle" to="/login" />
         </li>
       </ul>
     </div>

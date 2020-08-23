@@ -1,10 +1,9 @@
 import React from "react";
 
 const Header = (props) => {
-
   const addClass = (e) => {
     e.currentTarget.classList.toggle("is-active");
-  }
+  };
 
   return (
     <header id="menu" className="header">
@@ -29,6 +28,6 @@ const Header = (props) => {
       </div>
     </header>
   );
-}
+};
 
 export default Header;

@@ -5,8 +5,8 @@ import { Lines } from "react-preloaders";
 import Header from "../Components/header";
 import Navbar from "../Components/navbar";
 import Description from "../Components/description";
-import ContentHome from "../Components/contentHome";
-import PrintImages from "../Components/printImages";
+import SectionHome from "../Components/sectionHome";
+import Gallery from "../Components/gallery";
 import Profile from "../Components/profile";
 import Footer from "../Components/footer";
 
@@ -24,17 +24,17 @@ const Home = () => {
           <Navbar />
         </Header>
         <Description />
-        <ContentHome 
+        <SectionHome
           name={"galería"}
           description={"Muestras del software"}
-          children={<PrintImages/>}
+          children={<Gallery />}
         />
-        <ContentHome
+        <SectionHome
           name={"nosotros"}
           description={"Las mentes detrás de Weigh App"}
-          children={<Profile/>}
+          children={<Profile />}
         />
-       <Footer/>
+        <Footer />
       </main>
       <Lines
         customLoading={loading}

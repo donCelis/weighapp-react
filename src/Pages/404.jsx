@@ -1,11 +1,5 @@
-import React from "react"
+import React from "react";
 
-const Error = ()=>{
-  return(
-    <p className="text-light">
-      Página no encontrada
-    </p>
-  )
-}
+const Error404 = () => <p className="text-dark">Página no encontrada</p>;
 
-export default Error
+export default Error404;
