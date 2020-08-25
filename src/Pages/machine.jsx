@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import Preloader from "../Components/preloader"
 
 const Machine = ()=>{
   return (
-    <h1>Machine</h1>
+    <Fragment>
+      <h1>Machine</h1>
+      <Preloader/>
+    </Fragment>
   )
 }
 

@@ -1,7 +1,7 @@
-import React, { Fragment, useState, useEffect } from "react";
-import { Ripple } from "react-preloaders";
+import React, { Fragment } from "react";
 
 //Components
+import Preloader from "../Components/preloader";
 import Header from "../Components/header";
 import Navbar from "../Components/navbar";
 import Description from "../Components/description";
@@ -10,38 +10,24 @@ import Gallery from "../Components/gallery";
 import Profile from "../Components/profile";
 import Footer from "../Components/footer";
 
-const Home = () => {
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => setLoading(false), 500);
-  }, []);
-
-  return (
-    <Fragment>
-      <main className="principal">
-        <Header children={<Navbar />} />
-        <Description />
-        <SectionHome
-          name={"galería"}
-          description={"Muestras del software"}
-          children={<Gallery />}
-        />
-        <SectionHome
-          name={"nosotros"}
-          description={"Las mentes detrás de Weigh App"}
-          children={<Profile />}
-        />
-        <Footer />
-      </main>
-      <Ripple
-        customLoading={loading}
-        color={"#2980b9"}
-        background="#2c3e50"
-        animation="fade"
+const Home = () => (
+  <Fragment>
+    <main className="principal">
+      <Header children={<Navbar />} />
+      <Description />
+      <SectionHome
+        name={"galería"}
+        description={"Muestras del software"}
+        children={<Gallery />}
       />
-    </Fragment>
-  );
-};
-
+      <SectionHome
+        name={"nosotros"}
+        description={"Las mentes detrás de Weigh App"}
+        children={<Profile />}
+      />
+      <Footer />
+    </main>
+    <Preloader />
+  </Fragment>
+);
 export default Home;

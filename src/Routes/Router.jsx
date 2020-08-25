@@ -5,6 +5,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "../Pages/home";
 import Login from "../Pages/login";
 import Machine from "../Pages/machine";
+import Reports from "../Pages/reports"
 import Error404 from "../Pages/404";
 
 const Router = () => {
@@ -14,6 +15,7 @@ const Router = () => {
         <Route exact={true} path="/" component={Home} />
         <Route exact={true} path="/login" component={Login} />
         <Route exact={true} path="/machine" component={Machine} />
+        <Route exact={true} path="/reports" component={Reports} />
         <Route component={Error404} />
       </Switch>
     </BrowserRouter>
