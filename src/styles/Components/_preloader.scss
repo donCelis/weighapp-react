@@ -37,20 +37,3 @@
     animation: girar 1s infinite ease-in-out;
   }
 }
-
-@keyframes ocultar{
-  from{
-    opacity: 1;
-    visibility: visible;
-    display: flex;
-  }
-  to{
-    opacity: 0;
-    visibility: hidden;
-    display: none;
-  }
-}
-
-.ocultar{
-  animation: ocultar 0.8s forwards ease;
-}

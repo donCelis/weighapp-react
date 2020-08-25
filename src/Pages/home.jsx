@@ -1,7 +1,8 @@
 import React, { Fragment, useState, useEffect } from "react";
-import { Lines } from "react-preloaders";
+import { Lines, CustomPreloader } from "react-preloaders";
 
 //Components
+import Preloader from "../Components/preloader";
 import Header from "../Components/header";
 import Navbar from "../Components/navbar";
 import Description from "../Components/description";
@@ -20,9 +21,7 @@ const Home = () => {
   return (
     <Fragment>
       <main className="principal">
-        <Header>
-          <Navbar />
-        </Header>
+        <Header children={<Navbar />} />
         <Description />
         <SectionHome
           name={"galería"}
@@ -36,12 +35,15 @@ const Home = () => {
         />
         <Footer />
       </main>
-      <Lines
+      <CustomPreloader customLoading={loading}>
+        <Preloader />
+      </CustomPreloader>
+      {/* <Lines
         customLoading={loading}
         color={"#2980b9"}
         background="#2c3e50"
         animation="fade"
-      />
+      /> */}
     </Fragment>
   );
 };

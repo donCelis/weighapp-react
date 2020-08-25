@@ -8,11 +8,12 @@ const Navbar = () => {
   return (
     <div className="menu navbar-collapse collapse" id="mobile">
       <ul className="navbar-nav ml-auto">
-        {names.map((name, index) => (
-          <NavItem key={index} data={name} />
-        ))}
+        {names.map((name, index) => <NavItem key={index} data={name} />)}
         <li className="nav-item">
-          <Link className="nav-link menu--login fas fa-user-circle" to="/login" />
+          <Link
+            to="/login"
+            className="nav-link menu--login fas fa-user-circle"
+          />
         </li>
       </ul>
     </div>

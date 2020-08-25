@@ -1,6 +1,6 @@
 import React from "react";
 
-const Header = (props) => {
+const Header = ({children}) => {
   const addClass = (e) => {
     e.currentTarget.classList.toggle("is-active");
   };
@@ -23,7 +23,7 @@ const Header = (props) => {
               <span className="hamburger-inner"></span>
             </span>
           </button>
-          {props.children}
+          {children}
         </nav>
       </div>
     </header>
