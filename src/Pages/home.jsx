@@ -1,8 +1,7 @@
 import React, { Fragment, useState, useEffect } from "react";
-import { Lines, CustomPreloader } from "react-preloaders";
+import { Ripple } from "react-preloaders";
 
 //Components
-import Preloader from "../Components/preloader";
 import Header from "../Components/header";
 import Navbar from "../Components/navbar";
 import Description from "../Components/description";
@@ -35,15 +34,12 @@ const Home = () => {
         />
         <Footer />
       </main>
-      <CustomPreloader customLoading={loading}>
-        <Preloader />
-      </CustomPreloader>
-      {/* <Lines
+      <Ripple
         customLoading={loading}
         color={"#2980b9"}
         background="#2c3e50"
         animation="fade"
-      /> */}
+      />
     </Fragment>
   );
 };

@@ -1,5 +1,4 @@
 .menu {
-  
   a {
     color: $blanco;
     padding: rem(15px) rem(20px) !important;
@@ -16,7 +15,7 @@
     font-size: em(22.4px);
   }
   @media screen and (max-width: $medium) {
-    margin-top: rem(16px);
+    padding: 0 rem(64px);
     a{
       margin-bottom: rem(10px);
     }
