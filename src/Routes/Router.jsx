@@ -10,7 +10,7 @@ import Error404 from "../Pages/404";
 
 const Router = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="weighapp-react">
       <Switch>
         <Route exact={true} path="/" component={Home} />
         <Route exact={true} path="/login" component={Login} />
