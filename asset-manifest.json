@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "./static/css/main.db286e09.chunk.css",
-    "main.js": "./static/js/main.3bfeacbc.chunk.js",
-    "main.js.map": "./static/js/main.3bfeacbc.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.bb137d90.js",
-    "runtime-main.js.map": "./static/js/runtime-main.bb137d90.js.map",
-    "static/css/2.7580c1a4.chunk.css": "./static/css/2.7580c1a4.chunk.css",
-    "static/js/2.6b466853.chunk.js": "./static/js/2.6b466853.chunk.js",
-    "static/js/2.6b466853.chunk.js.map": "./static/js/2.6b466853.chunk.js.map",
-    "index.html": "./index.html",
-    "precache-manifest.02f80ff3ccbaddd4c8904306049bdab2.js": "./precache-manifest.02f80ff3ccbaddd4c8904306049bdab2.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/2.7580c1a4.chunk.css.map": "./static/css/2.7580c1a4.chunk.css.map",
-    "static/css/main.db286e09.chunk.css.map": "./static/css/main.db286e09.chunk.css.map",
-    "static/js/2.6b466853.chunk.js.LICENSE.txt": "./static/js/2.6b466853.chunk.js.LICENSE.txt"
+    "main.css": "/weighapp-react/static/css/main.db286e09.chunk.css",
+    "main.js": "/weighapp-react/static/js/main.3bfeacbc.chunk.js",
+    "main.js.map": "/weighapp-react/static/js/main.3bfeacbc.chunk.js.map",
+    "runtime-main.js": "/weighapp-react/static/js/runtime-main.8f5d4acf.js",
+    "runtime-main.js.map": "/weighapp-react/static/js/runtime-main.8f5d4acf.js.map",
+    "static/css/2.7580c1a4.chunk.css": "/weighapp-react/static/css/2.7580c1a4.chunk.css",
+    "static/js/2.62631532.chunk.js": "/weighapp-react/static/js/2.62631532.chunk.js",
+    "static/js/2.62631532.chunk.js.map": "/weighapp-react/static/js/2.62631532.chunk.js.map",
+    "index.html": "/weighapp-react/index.html",
+    "precache-manifest.195f29f1c8e3284a6e769d1ed0e7986d.js": "/weighapp-react/precache-manifest.195f29f1c8e3284a6e769d1ed0e7986d.js",
+    "service-worker.js": "/weighapp-react/service-worker.js",
+    "static/css/2.7580c1a4.chunk.css.map": "/weighapp-react/static/css/2.7580c1a4.chunk.css.map",
+    "static/css/main.db286e09.chunk.css.map": "/weighapp-react/static/css/main.db286e09.chunk.css.map",
+    "static/js/2.62631532.chunk.js.LICENSE.txt": "/weighapp-react/static/js/2.62631532.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.bb137d90.js",
+    "static/js/runtime-main.8f5d4acf.js",
     "static/css/2.7580c1a4.chunk.css",
-    "static/js/2.6b466853.chunk.js",
+    "static/js/2.62631532.chunk.js",
     "static/css/main.db286e09.chunk.css",
     "static/js/main.3bfeacbc.chunk.js"
   ]
