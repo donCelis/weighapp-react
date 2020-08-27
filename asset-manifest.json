@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/weighapp-react/static/css/main.db286e09.chunk.css",
-    "main.js": "/weighapp-react/static/js/main.ffed9753.chunk.js",
-    "main.js.map": "/weighapp-react/static/js/main.ffed9753.chunk.js.map",
+    "main.css": "/weighapp-react/static/css/main.ad69c5bc.chunk.css",
+    "main.js": "/weighapp-react/static/js/main.0370a486.chunk.js",
+    "main.js.map": "/weighapp-react/static/js/main.0370a486.chunk.js.map",
     "runtime-main.js": "/weighapp-react/static/js/runtime-main.8f5d4acf.js",
     "runtime-main.js.map": "/weighapp-react/static/js/runtime-main.8f5d4acf.js.map",
     "static/css/2.7580c1a4.chunk.css": "/weighapp-react/static/css/2.7580c1a4.chunk.css",
-    "static/js/2.62631532.chunk.js": "/weighapp-react/static/js/2.62631532.chunk.js",
-    "static/js/2.62631532.chunk.js.map": "/weighapp-react/static/js/2.62631532.chunk.js.map",
+    "static/js/2.db56112d.chunk.js": "/weighapp-react/static/js/2.db56112d.chunk.js",
+    "static/js/2.db56112d.chunk.js.map": "/weighapp-react/static/js/2.db56112d.chunk.js.map",
     "index.html": "/weighapp-react/index.html",
-    "precache-manifest.0e120beb7557f196f2ba9cb55d0b43d7.js": "/weighapp-react/precache-manifest.0e120beb7557f196f2ba9cb55d0b43d7.js",
+    "precache-manifest.3448e8f596e6104dcbbe121005ac13dd.js": "/weighapp-react/precache-manifest.3448e8f596e6104dcbbe121005ac13dd.js",
     "service-worker.js": "/weighapp-react/service-worker.js",
     "static/css/2.7580c1a4.chunk.css.map": "/weighapp-react/static/css/2.7580c1a4.chunk.css.map",
-    "static/css/main.db286e09.chunk.css.map": "/weighapp-react/static/css/main.db286e09.chunk.css.map",
-    "static/js/2.62631532.chunk.js.LICENSE.txt": "/weighapp-react/static/js/2.62631532.chunk.js.LICENSE.txt"
+    "static/css/main.ad69c5bc.chunk.css.map": "/weighapp-react/static/css/main.ad69c5bc.chunk.css.map",
+    "static/js/2.db56112d.chunk.js.LICENSE.txt": "/weighapp-react/static/js/2.db56112d.chunk.js.LICENSE.txt",
+    "static/media/error-404.svg": "/weighapp-react/static/media/error-404.7a432ed8.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.8f5d4acf.js",
     "static/css/2.7580c1a4.chunk.css",
-    "static/js/2.62631532.chunk.js",
-    "static/css/main.db286e09.chunk.css",
-    "static/js/main.ffed9753.chunk.js"
+    "static/js/2.db56112d.chunk.js",
+    "static/css/main.ad69c5bc.chunk.css",
+    "static/js/main.0370a486.chunk.js"
   ]
 }
