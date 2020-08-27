@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Helmet } from "react-helmet";
 
 //Components
 import Preloader from "../Components/preloader";
@@ -12,6 +13,9 @@ import Footer from "../Components/footer";
 
 const Home = () => (
   <Fragment>
+    <Helmet>
+      <title>Weigh App</title>
+    </Helmet>
     <main className="principal">
       <Header children={<Navbar />} />
       <Description />
