@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/weighapp-react/static/css/main.3d51e52a.chunk.css",
-    "main.js": "/weighapp-react/static/js/main.fe4a8b59.chunk.js",
-    "main.js.map": "/weighapp-react/static/js/main.fe4a8b59.chunk.js.map",
+    "main.css": "/weighapp-react/static/css/main.ad69c5bc.chunk.css",
+    "main.js": "/weighapp-react/static/js/main.6d9ac779.chunk.js",
+    "main.js.map": "/weighapp-react/static/js/main.6d9ac779.chunk.js.map",
     "runtime-main.js": "/weighapp-react/static/js/runtime-main.8f5d4acf.js",
     "runtime-main.js.map": "/weighapp-react/static/js/runtime-main.8f5d4acf.js.map",
     "static/css/2.7580c1a4.chunk.css": "/weighapp-react/static/css/2.7580c1a4.chunk.css",
     "static/js/2.6e405c36.chunk.js": "/weighapp-react/static/js/2.6e405c36.chunk.js",
     "static/js/2.6e405c36.chunk.js.map": "/weighapp-react/static/js/2.6e405c36.chunk.js.map",
     "index.html": "/weighapp-react/index.html",
-    "precache-manifest.2777aa4d846e79efbc15e382dd3285c8.js": "/weighapp-react/precache-manifest.2777aa4d846e79efbc15e382dd3285c8.js",
+    "precache-manifest.0808d221af078336c24268d3e7cc025c.js": "/weighapp-react/precache-manifest.0808d221af078336c24268d3e7cc025c.js",
     "service-worker.js": "/weighapp-react/service-worker.js",
     "static/css/2.7580c1a4.chunk.css.map": "/weighapp-react/static/css/2.7580c1a4.chunk.css.map",
-    "static/css/main.3d51e52a.chunk.css.map": "/weighapp-react/static/css/main.3d51e52a.chunk.css.map",
+    "static/css/main.ad69c5bc.chunk.css.map": "/weighapp-react/static/css/main.ad69c5bc.chunk.css.map",
     "static/js/2.6e405c36.chunk.js.LICENSE.txt": "/weighapp-react/static/js/2.6e405c36.chunk.js.LICENSE.txt",
     "static/media/error-404.svg": "/weighapp-react/static/media/error-404.7a432ed8.svg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.8f5d4acf.js",
     "static/css/2.7580c1a4.chunk.css",
     "static/js/2.6e405c36.chunk.js",
-    "static/css/main.3d51e52a.chunk.css",
-    "static/js/main.fe4a8b59.chunk.js"
+    "static/css/main.ad69c5bc.chunk.css",
+    "static/js/main.6d9ac779.chunk.js"
   ]
 }
