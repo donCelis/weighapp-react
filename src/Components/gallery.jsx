@@ -1,10 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import ImageComp from "./image";
 
 const Gallery = () => {
-  let [images] = useState("");
-
-  images = [
+  const images = [
     "assets/img/small/1_umwetq.png",
     "assets/img/small/2_jriefw.png",
     "assets/img/small/3_dkyxtm.png",

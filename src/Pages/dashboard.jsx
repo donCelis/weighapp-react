@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import Preloader from "../Components/preloader";
+import Preloader from "../components/preloader";
 
 const Dashboard = () => {
   return (

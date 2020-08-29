@@ -1,16 +1,18 @@
 import React, { Fragment } from "react";
-import { Helmet } from "react-helmet";
-import Preloader from "../Components/preloader";
+//import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import Preloader from "../components/preloader";
 
 const Login = () => {
   return (
     <Fragment>
-      <Helmet>
+      {/* <Helmet>
         <title>Login - Weigh App</title>
-      </Helmet>
+      </Helmet> */}
       <p>Login</p>
-      <Link className="btn btn-danger" to="/" />
+      <Link className="btn btn-danger" to="/">
+        x
+      </Link>
       <Preloader />
     </Fragment>
   );

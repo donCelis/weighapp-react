@@ -1,0 +1,14 @@
+//Plugins
+@import "./variables/vars";
+@import "./variables/mixins";
+@import "./variables/media";
+
+@import "./components/general";
+@import "./components/error404";
+
+//Componentes
+@import "./components/header";
+@import "./components/navbar";
+@import "./components/description";
+@import "./components/content_home";
+@import "./components/footer";

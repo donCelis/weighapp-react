@@ -1,6 +1,6 @@
 import React from "react";
-import NavItem from "./navItem";
 import { Link } from "react-router-dom";
+import NavItem from "./navItem";
 
 const Navbar = () => {
   let names = ["inicio", "galería", "nosotros"];
