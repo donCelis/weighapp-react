@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 //import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import Preloader from "../components/preloader";
+import { Preloader } from "../components";
 
 const Login = () => {
   return (

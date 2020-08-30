@@ -1,12 +1,12 @@
 import React from "react";
-import ImageComp from "./image";
+import { ImageComp } from "./";
 
 const Gallery = () => {
   const images = [
-    "assets/img/small/1_umwetq.png",
-    "assets/img/small/2_jriefw.png",
-    "assets/img/small/3_dkyxtm.png",
-    "assets/img/small/4_h9w1hy.png",
+    "assets/img/small/1_umwetq",
+    "assets/img/small/2_jriefw",
+    "assets/img/small/3_dkyxtm",
+    "assets/img/small/4_h9w1hy",
   ];
   
   return (

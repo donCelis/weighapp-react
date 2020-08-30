@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { Image } from "cloudinary-react";
-import InfoProfile from "./infoProfile";
+import { InfoProfile } from "./";
 
 const Profile = () => {
   return (

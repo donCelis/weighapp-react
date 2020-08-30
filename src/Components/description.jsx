@@ -3,7 +3,7 @@ import { Image } from "cloudinary-react";
 
 const Description = () => {
   const logo =
-    "assets/img/logo_jo6jmu.svg";
+    "assets/img/logo_jo6jmu";
   return (
     <section id="inicio">
       <div className="description">

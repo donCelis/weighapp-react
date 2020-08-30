@@ -2,11 +2,13 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 //Components
-import Home from "../pages/home";
-import Login from "../pages/login";
-import Dashboard from "../pages/dashboard";
-import Reports from "../pages/reports";
-import Error404 from "../pages/404";
+import {
+  Home,
+  Login,
+  Dashboard,
+  Reports,
+  Error404
+} from "../pages";
 
 const Router = () => {
   return (

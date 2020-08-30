@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import NavItem from "./navItem";
+import { NavItem } from "./";
 
 const Navbar = () => {
   let names = ["inicio", "galería", "nosotros"];
@@ -8,7 +8,9 @@ const Navbar = () => {
   return (
     <div className="menu navbar-collapse collapse" id="mobile">
       <ul className="navbar-nav ml-auto">
-        {names.map((name, index) => <NavItem key={index} data={name} />)}
+        {names.map((name, index) => (
+          <NavItem key={index} data={name} />
+        ))}
         <li className="nav-item">
           <Link
             to="/login"
