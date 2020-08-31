@@ -1,14 +1,20 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, /* useEffect, */ useLayoutEffect } from "react";
 import { Circle } from "react-preloaders";
 
 const Preloader = () => {
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
+  /* useEffect(() => {
     setTimeout(() => {
       setLoading(false);
     }, 800);
-  }, []);
+  }, []); */
+
+  useLayoutEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 800);
+  }, [loading]);
 
   return (
     <Circle

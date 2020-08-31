@@ -14,8 +14,8 @@ const Map = () => {
       const map = new mapboxgl.Map({
         container: mapContainer.current,
         style: "mapbox://styles/mapbox/light-v10",
-        center: [-75.565804, 6.300195],
-        zoom: 13,
+        center: [-75.578125, 6.249659],
+        zoom: 12,
       });
 
       map.on("load", () => {
