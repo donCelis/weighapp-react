@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "afd81234f3eec23fa8e82f096f02457a",
+    "revision": "ac906059c634516f1faa94a889047d60",
     "url": "/weighapp-react/index.html"
   },
   {
-    "revision": "8b4265dd54b5ca0770c4",
+    "revision": "166e6137138664604c71",
     "url": "/weighapp-react/static/css/2.a537c930.chunk.css"
   },
   {
-    "revision": "476561c74b7a493f81aa",
+    "revision": "7eb7b28ba71d746313ba",
     "url": "/weighapp-react/static/css/main.4ad3f458.chunk.css"
   },
   {
-    "revision": "8b4265dd54b5ca0770c4",
-    "url": "/weighapp-react/static/js/2.c5cb466a.chunk.js"
+    "revision": "166e6137138664604c71",
+    "url": "/weighapp-react/static/js/2.2810aaa1.chunk.js"
   },
   {
     "revision": "0b08544f54c9906705be39c03b7e79ad",
-    "url": "/weighapp-react/static/js/2.c5cb466a.chunk.js.LICENSE.txt"
+    "url": "/weighapp-react/static/js/2.2810aaa1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "476561c74b7a493f81aa",
-    "url": "/weighapp-react/static/js/main.1f0b0efb.chunk.js"
+    "revision": "7eb7b28ba71d746313ba",
+    "url": "/weighapp-react/static/js/main.5469cbdd.chunk.js"
   },
   {
     "revision": "e0e5933504c0a3c6b3e9",
