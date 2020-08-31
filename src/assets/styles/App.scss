@@ -6,10 +6,14 @@
 @import "./components/general";
 @import "./components/error404";
 
-//Componentes
+//Components to home
 @import "./components/header";
 @import "./components/navbar";
 @import "./components/description";
 @import "./components/content_home";
 @import "./components/map";
 @import "./components/footer";
+
+
+//Components to login
+@import "./components/login";

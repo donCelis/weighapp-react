@@ -1,0 +1,54 @@
+.login {
+  @include size($width: 100%, $height: 100vh);
+  background: $azulMedianoche;
+  text-align: center;
+
+  .formulario {
+    @extend %borde;
+    background: $grisClaro;
+    .form-group {
+      margin: rem(25px) 0;
+      input{
+        &[type="email"]{
+          padding: rem(25px);
+        }
+        &[type="password"]{
+          padding: rem(25px);
+        }
+        &[type="submit"]{
+          padding: rem(15px) 0;
+        }
+      }
+      &:first-child i {
+        @extend %borde;
+        font-size: rem(22px);
+        color: $blanco;
+        margin: 0 rem(10px);
+        padding: rem(15px) rem(10px);
+        cursor: pointer;
+        min-width: rem(60px);
+        background: #4267b2;
+        &:last-child {
+          background: #24292e;
+        }
+      }
+    }
+  }
+}
+
+.toHome {
+  @include position($position: absolute, $top: rem(10px), $right: rem(10px));
+  @extend %borde;
+  color: $blanco;
+  background: $azulClaro;
+  padding: rem(10px) rem(15px);
+  font-size: em(24px);
+  cursor: pointer;
+  &:hover {
+    color: $blanco;
+    text-decoration: none;
+  }
+  &:visited {
+    text-decoration: none;
+  }
+}

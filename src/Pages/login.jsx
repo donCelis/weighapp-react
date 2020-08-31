@@ -1,14 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Preloader } from "../components";
+import { Preloader, Form } from "../components";
 
 const Login = () => (
   <>
-    <p>Login</p>
-    <Link className="btn btn-danger" to="/">
-      x
-    </Link>
-
+    <Link className="toHome fas fa-times" to="/" />
+    <section className="login p-4">
+      <div className="row justify-content-center align-items-center h-100">
+        <div className="col-sm-12 col-md-8 col-lg-5">
+          <Form />
+        </div>
+      </div>
+    </section>
     <Preloader />
   </>
 );

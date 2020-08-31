@@ -1,3 +1,5 @@
+//Components to home
+
 export { default as Description } from "./description";
 export { default as Footer } from "./footer";
 export { default as Gallery } from "./gallery";
@@ -11,3 +13,6 @@ export { default as Preloader } from "./preloader";
 export { default as Profile } from "./profile";
 export { default as SectionHome } from "./sectionHome";
 export { default as Socials } from "./socials";
+
+//Components to login
+export { default as Form } from "./form";
