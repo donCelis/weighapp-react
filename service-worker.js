@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/weighapp-react/precache-manifest.4f28e1c033feba38b99f0e68b7d3aefb.js"
+  "/weighapp-react/precache-manifest.0eb4e40895d54e4e484eac8b0c31702a.js"
 );
 
 self.addEventListener('message', (event) => {
