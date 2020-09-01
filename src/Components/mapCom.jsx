@@ -2,32 +2,36 @@ import React, { useEffect, useRef, useState } from "react";
 import "mapbox-gl/dist/mapbox-gl.css";
 import mapboxgl from "mapbox-gl/dist/mapbox-gl";
 
-const Map = () => {
+const MapCom = () => {
   const [map, setMap] = useState(null);
   const mapContainer = useRef(null);
 
   useEffect(() => {
     mapboxgl.accessToken =
       "pk.eyJ1IjoiZG9uY2VsaXMiLCJhIjoiY2tkcnBjZHRvMHMxcDJ4cGJ1Zm8xNGQ5NSJ9.y9K3zBTnDxgUK49q8WhPIA";
-    
-      const initializeMap = ({ setMap, mapContainer }) => {
+
+    const centerMap = [-75.578125, 6.249659];
+
+    const initializeMap = ({ setMap, mapContainer }) => {
       const map = new mapboxgl.Map({
         container: mapContainer.current,
         style: "mapbox://styles/mapbox/light-v10",
-        center: [-75.578125, 6.249659],
+        center: centerMap,
         zoom: 12,
       });
+
+      const marker = new mapboxgl.Marker();
 
       map.on("load", () => {
         setMap(map);
         map.resize();
         map.scrollZoom.disable();
         map.dragPan.disable();
+        marker.setLngLat(centerMap).addTo(map);
       });
     };
 
     if (!map) initializeMap({ setMap, mapContainer });
-    
   }, [map]);
 
   return (
@@ -37,4 +41,4 @@ const Map = () => {
   );
 };
 
-export default Map;
+export default MapCom;

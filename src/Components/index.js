@@ -6,7 +6,7 @@ export { default as Gallery } from "./gallery";
 export { default as Header } from "./header";
 export { default as ImageComp } from "./image";
 export { default as InfoProfile } from "./infoProfile";
-export { default as Map } from "./map";
+export { default as MapCom } from "./mapCom";
 export { default as Navbar } from "./navbar";
 export { default as NavItem } from "./navItem";
 export { default as Preloader } from "./preloader";

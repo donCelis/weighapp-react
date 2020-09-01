@@ -9,7 +9,7 @@ import {
   SectionHome,
   Gallery,
   Profile,
-  /* Map, */
+  MapCom,
   Footer,
 } from "../components";
 
@@ -28,7 +28,7 @@ const Home = () => (
         description={"Las mentes detrás de Weigh App"}
         children={<Profile />}
       />
-      {/* <Map /> */}
+      <MapCom />
       <Footer />
     </main>
     <Preloader />

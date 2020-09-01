@@ -1,14 +1,12 @@
 .map{
+  text-align: right;
   width: 100%;
   height: rem(320px);
   position: relative;
-  div{
+  .mapboxgl-map{
     width: 100%;
     height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    a{
+    .mapboxgl-ctrl-bottom-right{
       display: none;
     }
   }
