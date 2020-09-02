@@ -1,17 +1,3 @@
 .principal {
   background: $grisClaro;
-  #nosotros {
-    background: $azulMedianoche;
-    color: $blanco;
-    img {
-      border: rem(8px) solid $azul;
-    }
-    .profile {
-      font-weight: $weight-100;
-    }
-    a {
-      font-size: rem(32px);
-      color: $blanco;
-    }
-  }
 }

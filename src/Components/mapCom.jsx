@@ -25,8 +25,13 @@ const MapCom = () => {
       map.on("load", () => {
         setMap(map);
         map.resize();
+        map.boxZoom.disable();
         map.scrollZoom.disable();
         map.dragPan.disable();
+        map.dragRotate.disable();
+        map.doubleClickZoom.disable();
+        map.touchZoomRotate.disable();
+        map.touchPitch.disable();
         marker.setLngLat(centerMap).addTo(map);
       });
     };

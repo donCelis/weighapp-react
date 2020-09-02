@@ -1,8 +1,8 @@
 import React from "react";
 
 const Socials = () => (
-  <div>
-    <h3>Redes Sociales</h3>
+  <div className="socials">
+    <h3 className="mb-3">Redes Sociales</h3>
     <div className="row justify-content-center">
       <div className="col-2">
         <a
