@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/weighapp-react/static/css/main.545d87ea.chunk.css",
-    "main.js": "/weighapp-react/static/js/main.cbaf4fe1.chunk.js",
-    "main.js.map": "/weighapp-react/static/js/main.cbaf4fe1.chunk.js.map",
+    "main.js": "/weighapp-react/static/js/main.b2bb6888.chunk.js",
+    "main.js.map": "/weighapp-react/static/js/main.b2bb6888.chunk.js.map",
     "runtime-main.js": "/weighapp-react/static/js/runtime-main.8f5d4acf.js",
     "runtime-main.js.map": "/weighapp-react/static/js/runtime-main.8f5d4acf.js.map",
     "static/css/2.4b9b0306.chunk.css": "/weighapp-react/static/css/2.4b9b0306.chunk.css",
-    "static/js/2.ad406792.chunk.js": "/weighapp-react/static/js/2.ad406792.chunk.js",
-    "static/js/2.ad406792.chunk.js.map": "/weighapp-react/static/js/2.ad406792.chunk.js.map",
+    "static/js/2.3bcd0b2e.chunk.js": "/weighapp-react/static/js/2.3bcd0b2e.chunk.js",
+    "static/js/2.3bcd0b2e.chunk.js.map": "/weighapp-react/static/js/2.3bcd0b2e.chunk.js.map",
     "index.html": "/weighapp-react/index.html",
-    "precache-manifest.28072ac249e6dca21b62bdc8cb4e0ada.js": "/weighapp-react/precache-manifest.28072ac249e6dca21b62bdc8cb4e0ada.js",
+    "precache-manifest.7734c3a8b07ff47c42a64b4200fb08dd.js": "/weighapp-react/precache-manifest.7734c3a8b07ff47c42a64b4200fb08dd.js",
     "service-worker.js": "/weighapp-react/service-worker.js",
     "static/css/2.4b9b0306.chunk.css.map": "/weighapp-react/static/css/2.4b9b0306.chunk.css.map",
     "static/css/main.545d87ea.chunk.css.map": "/weighapp-react/static/css/main.545d87ea.chunk.css.map",
-    "static/js/2.ad406792.chunk.js.LICENSE.txt": "/weighapp-react/static/js/2.ad406792.chunk.js.LICENSE.txt",
+    "static/js/2.3bcd0b2e.chunk.js.LICENSE.txt": "/weighapp-react/static/js/2.3bcd0b2e.chunk.js.LICENSE.txt",
     "static/media/error-404.svg": "/weighapp-react/static/media/error-404.7a432ed8.svg",
     "static/media/pin.svg": "/weighapp-react/static/media/pin.e0ad5d70.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.8f5d4acf.js",
     "static/css/2.4b9b0306.chunk.css",
-    "static/js/2.ad406792.chunk.js",
+    "static/js/2.3bcd0b2e.chunk.js",
     "static/css/main.545d87ea.chunk.css",
-    "static/js/main.cbaf4fe1.chunk.js"
+    "static/js/main.b2bb6888.chunk.js"
   ]
 }
