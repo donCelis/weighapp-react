@@ -1,30 +1,35 @@
 import React from "react";
 
-const Socials = () => (
-  <div className="socials">
-    <h3 className="mb-3">Redes Sociales</h3>
-    <div className="row justify-content-center">
-      <div className="col-2">
-        <a
-          rel="noopener noreferrer"
-          href="https://www.facebook.com/d0nCelis"
-          target="_blank"
-        >
-          <i className="fab fa-facebook"></i>
-        </a>
-      </div>
-      <div className="col-2">
-        <a rel="noopener noreferrer" href="https://web.whatsapp.com/">
-          <i className="fab fa-whatsapp-square"></i>
-        </a>
-      </div>
-      <div className="col-2">
-        <a rel="noopener noreferrer" href="https://www.instagram.com/d0nCelis/">
-          <i className="fab fa-instagram"></i>
-        </a>
+const Socials = () => {
+  const data = {
+    fb: "https://www.facebook.com/d0nCelis",
+    what: "https://web.whatsapp.com/",
+    insta: "https://www.instagram.com/d0nCelis/",
+  };
+
+  const { fb, what, insta } = data;
+  return (
+    <div className="socials">
+      <h3 className="mb-3">Redes Sociales</h3>
+      <div className="row justify-content-center">
+        <div className="col-2">
+          <a rel="noopener noreferrer" href={fb} target="_blank">
+            <i className="fab fa-facebook"></i>
+          </a>
+        </div>
+        <div className="col-2">
+          <a rel="noopener noreferrer" href={what} target="_blank">
+            <i className="fab fa-whatsapp-square"></i>
+          </a>
+        </div>
+        <div className="col-2">
+          <a rel="noopener noreferrer" href={insta} target="_blank">
+            <i className="fab fa-instagram"></i>
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default Socials;

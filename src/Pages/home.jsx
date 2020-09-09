@@ -10,7 +10,7 @@ import {
   Gallery,
   Profile,
   InfoProfile,
-  MapCom,
+  MapLeaflet,
   Footer,
 } from "../components";
 
@@ -32,7 +32,7 @@ const Home = () => (
       <SectionHome
         children={<InfoProfile />}
       />
-      <MapCom />
+      <MapLeaflet />
       <Footer />
     </main>
     <Preloader />

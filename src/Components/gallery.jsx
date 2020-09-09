@@ -12,7 +12,9 @@ const Gallery = () => {
   return (
     <section className="row no-gutters">
       {images.map((img, index) => (
-        <ImageComp key={index} id={"weighappdzk6edcxp"} path={img}/>
+      <div key={index} className="col-lg-3 col-md-6 col-sm-6 col-6">
+        <ImageComp id={"weighappdzk6edcxp"} path={img}/>
+      </div>
       ))}
     </section>
   );
