@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Socials = () => {
-  const data = {
+  const [data] = useState({
     fb: "https://www.facebook.com/d0nCelis",
     what: "https://web.whatsapp.com/",
     insta: "https://www.instagram.com/d0nCelis/",
-  };
+  });
 
   const { fb, what, insta } = data;
   return (

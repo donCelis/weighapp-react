@@ -29,9 +29,7 @@ const Home = () => (
         description={"Las mentes detrás de Weigh App"}
         children={<Profile />}
       />
-      <SectionHome
-        children={<InfoProfile />}
-      />
+      <SectionHome children={<InfoProfile />} />
       <MapLeaflet />
       <Footer />
     </main>
