@@ -1,30 +1,39 @@
-import React from "react";
+import React, { useState } from "react";
 import "leaflet/dist/leaflet.css";
+import iconPin from "../assets/static/pin.svg";
 import { Icon } from "leaflet";
 import { Map, TileLayer, Marker } from "react-leaflet";
 
 const MapLeaflet = () => {
-  const data = {
+  const access_token =
+    "pk.eyJ1IjoiZG9uY2VsaXMiLCJhIjoiY2tkcnBjZHRvMHMxcDJ4cGJ1Zm8xNGQ5NSJ9.y9K3zBTnDxgUK49q8WhPIA";
+
+  let [data] = useState({
     position: [6.24822, -75.580032],
-    access_token: "pk.eyJ1IjoiZG9uY2VsaXMiLCJhIjoiY2tkcnBjZHRvMHMxcDJ4cGJ1Zm8xNGQ5NSJ9.y9K3zBTnDxgUK49q8WhPIA",
-    mapUri: function (){ return "https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}?access_token="+this.access_token },
+    mapUri: `https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}?access_token=${access_token}`,
     attribution: `Alexander Celis`,
     pin: new Icon({
-      iconUrl:
-        "https://res.cloudinary.com/weighappdzk6edcxp/image/upload/v1599671986/assets/img/pin_e1awfl.svg",
-      iconRetinaUrl:
-        "https://res.cloudinary.com/weighappdzk6edcxp/image/upload/v1599671986/assets/img/pin_e1awfl.svg",
+      iconUrl: iconPin,
+      iconRetinaUrl: iconPin,
       iconAnchor: null,
       shadowUrl: null,
       shadowAnchor: null,
       iconSize: [35, 35],
-      className: "Leaflet-venue-icon",
+      className: "main-class",
     }),
-  };
+  });
+
   return (
     <section className="map">
-      <Map center={data.position} zoom={12}>
-        <TileLayer url={data.mapUri()} attribution={data.attribution} />
+      <Map
+        doubleClickZoom={false}
+        dragging={false}
+        keyboard={false}
+        scrollWheelZoom={false}
+        center={data.position}
+        zoom={12}
+      >
+        <TileLayer url={data.mapUri} attribution={data.attribution} />
         <Marker position={data.position} icon={data.pin} />
       </Map>
     </section>
