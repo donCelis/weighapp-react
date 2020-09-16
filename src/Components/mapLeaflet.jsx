@@ -31,6 +31,7 @@ const MapLeaflet = () => {
         keyboard={false}
         scrollWheelZoom={false}
         center={data.position}
+        zoomControl={false}
         zoom={12}
       >
         <TileLayer url={data.mapUri} attribution={data.attribution} />
