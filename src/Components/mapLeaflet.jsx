@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "leaflet/dist/leaflet.css";
 import iconPin from "../assets/static/pin.svg";
 import { Icon } from "leaflet";
@@ -23,6 +23,12 @@ const MapLeaflet = () => {
     }),
   });
 
+  useEffect(()=>{
+    console.log(data);
+  }, [data])
+  
+  let { position, mapUri, attribution, pin } = data;
+
   return (
     <section className="map">
       <Map
@@ -30,12 +36,12 @@ const MapLeaflet = () => {
         dragging={false}
         keyboard={false}
         scrollWheelZoom={false}
-        center={data.position}
+        center={position}
         zoomControl={false}
         zoom={12}
       >
-        <TileLayer url={data.mapUri} attribution={data.attribution} />
-        <Marker position={data.position} icon={data.pin} />
+        <TileLayer url={mapUri} attribution={attribution} />
+        <Marker position={position} icon={pin} />
       </Map>
     </section>
   );
