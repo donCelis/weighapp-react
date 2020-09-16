@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/weighapp-react/static/css/main.545d87ea.chunk.css",
-    "main.js": "/weighapp-react/static/js/main.b2bb6888.chunk.js",
-    "main.js.map": "/weighapp-react/static/js/main.b2bb6888.chunk.js.map",
+    "main.js": "/weighapp-react/static/js/main.04badd42.chunk.js",
+    "main.js.map": "/weighapp-react/static/js/main.04badd42.chunk.js.map",
     "runtime-main.js": "/weighapp-react/static/js/runtime-main.8f5d4acf.js",
     "runtime-main.js.map": "/weighapp-react/static/js/runtime-main.8f5d4acf.js.map",
     "static/css/2.4b9b0306.chunk.css": "/weighapp-react/static/css/2.4b9b0306.chunk.css",
     "static/js/2.3bcd0b2e.chunk.js": "/weighapp-react/static/js/2.3bcd0b2e.chunk.js",
     "static/js/2.3bcd0b2e.chunk.js.map": "/weighapp-react/static/js/2.3bcd0b2e.chunk.js.map",
     "index.html": "/weighapp-react/index.html",
-    "precache-manifest.7734c3a8b07ff47c42a64b4200fb08dd.js": "/weighapp-react/precache-manifest.7734c3a8b07ff47c42a64b4200fb08dd.js",
+    "precache-manifest.8e570ed6686c102ea9eb7d6384e76684.js": "/weighapp-react/precache-manifest.8e570ed6686c102ea9eb7d6384e76684.js",
     "service-worker.js": "/weighapp-react/service-worker.js",
     "static/css/2.4b9b0306.chunk.css.map": "/weighapp-react/static/css/2.4b9b0306.chunk.css.map",
     "static/css/main.545d87ea.chunk.css.map": "/weighapp-react/static/css/main.545d87ea.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.4b9b0306.chunk.css",
     "static/js/2.3bcd0b2e.chunk.js",
     "static/css/main.545d87ea.chunk.css",
-    "static/js/main.b2bb6888.chunk.js"
+    "static/js/main.04badd42.chunk.js"
   ]
 }
