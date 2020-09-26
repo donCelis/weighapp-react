@@ -2,14 +2,17 @@ import React from "react";
 import { Image } from "cloudinary-react";
 
 const Description = () => {
-  const logo =
-    "assets/img/logo_jo6jmu";
+  const logo = "assets/img/logo_jo6jmu";
   return (
     <section id="inicio">
       <div className="description">
         <h2 className="description__logo">
           <div>
-            <Image cloud_name={"weighappdzk6edcxp"} publicId={logo} alt="Weigh App"/>
+            <Image
+              cloud_name={"weighappdzk6edcxp"}
+              publicId={logo}
+              alt="Weigh App"
+            />
           </div>
           <span className="txtBlanco">Weigh App</span>
         </h2>

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "leaflet/dist/leaflet.css";
 import iconPin from "../assets/static/pin.svg";
 import { Icon } from "leaflet";
@@ -23,10 +23,6 @@ const MapLeaflet = () => {
     }),
   });
 
-  useEffect(()=>{
-    console.log(data);
-  }, [data])
-  
   let { position, mapUri, attribution, pin } = data;
 
   return (

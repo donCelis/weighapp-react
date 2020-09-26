@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ImageComp } from "./";
+import { ImageComp } from ".";
 
 const Gallery = () => {
   const [data] = useState({

@@ -1,18 +1,17 @@
 //Components to home
-
-export { default as Description } from "./description";
-export { default as Footer } from "./footer";
-export { default as Gallery } from "./gallery";
-export { default as Header } from "./header";
-export { default as ImageComp } from "./image";
-export { default as InfoProfile } from "./infoProfile";
-export { default as MapLeaflet } from "./mapLeaflet";
-export { default as Navbar } from "./navbar";
-export { default as NavItem } from "./navItem";
-export { default as Preloader } from "./preloader";
-export { default as Profile } from "./profile";
-export { default as SectionHome } from "./sectionHome";
-export { default as Socials } from "./socials";
+export { default as Description } from "./Description";
+export { default as Footer } from "./Footer";
+export { default as Gallery } from "./Gallery";
+export { default as Header } from "./Header";
+export { default as ImageComp } from "./ImageComp";
+export { default as InfoProfile } from "./InfoProfile";
+export { default as MapLeaflet } from "./MapLeaflet";
+export { default as Navbar } from "./Navbar";
+export { default as NavItem } from "./NavItem";
+export { default as Preloader } from "./Preloader";
+export { default as Profile } from "./Profile";
+export { default as SectionHome } from "./SectionHome";
+export { default as Socials } from "./Socials";
 
 //Components to login
-export { default as Form } from "./form";
+export { default as Form } from "./Form";

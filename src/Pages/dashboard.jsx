@@ -1,10 +1,13 @@
 import React from "react";
-import { Preloader } from "../components";
+import { Header, Preloader } from "../components";
+
 
 const Dashboard = () => {
   return (
     <>
-      <h1>dashboard</h1>
+      <section>
+        <Header children={""}/>
+      </section>
       <Preloader />
     </>
   );

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Socials } from "./";
+import { Socials } from ".";
 
 const InfoProfile = () => {
   const [data] = useState({
