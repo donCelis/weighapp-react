@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/weighapp-react/static/css/main.545d87ea.chunk.css",
-    "main.js": "/weighapp-react/static/js/main.4f2d2e83.chunk.js",
-    "main.js.map": "/weighapp-react/static/js/main.4f2d2e83.chunk.js.map",
-    "runtime-main.js": "/weighapp-react/static/js/runtime-main.8f5d4acf.js",
-    "runtime-main.js.map": "/weighapp-react/static/js/runtime-main.8f5d4acf.js.map",
-    "static/css/2.4b9b0306.chunk.css": "/weighapp-react/static/css/2.4b9b0306.chunk.css",
-    "static/js/2.3bcd0b2e.chunk.js": "/weighapp-react/static/js/2.3bcd0b2e.chunk.js",
-    "static/js/2.3bcd0b2e.chunk.js.map": "/weighapp-react/static/js/2.3bcd0b2e.chunk.js.map",
-    "index.html": "/weighapp-react/index.html",
-    "precache-manifest.e0dfa26c75a957b78b61c56e8d1f148e.js": "/weighapp-react/precache-manifest.e0dfa26c75a957b78b61c56e8d1f148e.js",
-    "service-worker.js": "/weighapp-react/service-worker.js",
-    "static/css/2.4b9b0306.chunk.css.map": "/weighapp-react/static/css/2.4b9b0306.chunk.css.map",
-    "static/css/main.545d87ea.chunk.css.map": "/weighapp-react/static/css/main.545d87ea.chunk.css.map",
-    "static/js/2.3bcd0b2e.chunk.js.LICENSE.txt": "/weighapp-react/static/js/2.3bcd0b2e.chunk.js.LICENSE.txt",
-    "static/media/error-404.svg": "/weighapp-react/static/media/error-404.7a432ed8.svg",
-    "static/media/pin.svg": "/weighapp-react/static/media/pin.e0ad5d70.svg"
+    "main.css": "./static/css/main.8a298382.chunk.css",
+    "main.js": "./static/js/main.fd81ba27.chunk.js",
+    "main.js.map": "./static/js/main.fd81ba27.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.bb137d90.js",
+    "runtime-main.js.map": "./static/js/runtime-main.bb137d90.js.map",
+    "static/css/2.4b9b0306.chunk.css": "./static/css/2.4b9b0306.chunk.css",
+    "static/js/2.d897562e.chunk.js": "./static/js/2.d897562e.chunk.js",
+    "static/js/2.d897562e.chunk.js.map": "./static/js/2.d897562e.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.261531ea86aa141bf479b6bd90bebbf6.js": "./precache-manifest.261531ea86aa141bf479b6bd90bebbf6.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.4b9b0306.chunk.css.map": "./static/css/2.4b9b0306.chunk.css.map",
+    "static/css/main.8a298382.chunk.css.map": "./static/css/main.8a298382.chunk.css.map",
+    "static/js/2.d897562e.chunk.js.LICENSE.txt": "./static/js/2.d897562e.chunk.js.LICENSE.txt",
+    "static/media/error-404.svg": "./static/media/error-404.7a432ed8.svg",
+    "static/media/pin.svg": "./static/media/pin.e0ad5d70.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8f5d4acf.js",
+    "static/js/runtime-main.bb137d90.js",
     "static/css/2.4b9b0306.chunk.css",
-    "static/js/2.3bcd0b2e.chunk.js",
-    "static/css/main.545d87ea.chunk.css",
-    "static/js/main.4f2d2e83.chunk.js"
+    "static/js/2.d897562e.chunk.js",
+    "static/css/main.8a298382.chunk.css",
+    "static/js/main.fd81ba27.chunk.js"
   ]
 }
