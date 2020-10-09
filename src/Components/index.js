@@ -15,3 +15,6 @@ export { default as Socials } from "./Socials";
 
 //Components to login
 export { default as Form } from "./Form";
+
+//Components to dashboard
+export { default as UserMenu } from "./UserMenu";

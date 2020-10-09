@@ -1,12 +1,12 @@
 import React from "react";
-import { Header, Preloader } from "../components";
+import { Header, Preloader, UserMenu } from "../components";
 
 
 const Dashboard = () => {
   return (
     <>
       <section>
-        <Header children={""}/>
+        <Header children={<UserMenu />}/>
       </section>
       <Preloader />
     </>
