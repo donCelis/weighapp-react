@@ -1,16 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { NavItem } from ".";
 
 const Navbar = () => {
-  const [data] = useState({
-    names: ["inicio", "galería", "nosotros"],
-  });
+  const names = ["inicio", "galería", "nosotros"];
 
   return (
     <div className="menu navbar-collapse collapse" id="mobile">
       <ul className="navbar-nav ml-auto">
-        {data.names.map((name, index) => (
+        {names.map((name, index) => (
           <NavItem key={index} data={name} />
         ))}
         <li className="nav-item">

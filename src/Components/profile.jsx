@@ -1,15 +1,14 @@
 import React from "react";
-import { Image } from "cloudinary-react";
+import user from "../assets/static/team_1.jpg";
 
 const Profile = () => (
   <section className="row no-gutters mb-4">
     <div className="col">
       <div>
         <picture>
-          <Image
+          <img
             className="img-fluid rounded-circle"
-            cloud_name="weighappdzk6edcxp"
-            publicId="assets/img/danny_lhdciw"
+            src={user}
             alt="Alexander Celis"
           />
         </picture>

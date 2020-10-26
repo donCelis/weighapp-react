@@ -1,21 +1,17 @@
-import React, { useState } from "react";
-import { ImageComp } from ".";
+import React from "react";
+import small_1 from "../assets/static/small/small_1.png";
+import small_2 from "../assets/static/small/small_2.png";
+import small_3 from "../assets/static/small/small_3.png";
+import small_4 from "../assets/static/small/small_4.png";
 
 const Gallery = () => {
-  const [data] = useState({
-    images: [
-      "assets/img/small/1_umwetq",
-      "assets/img/small/2_jriefw",
-      "assets/img/small/3_dkyxtm",
-      "assets/img/small/4_h9w1hy",
-    ]
-  });
+  const images = [small_1, small_2, small_3, small_4];
 
   return (
     <section className="row no-gutters">
-      {data.images.map((img, index) => (
+      {images.map((img, index) => (
         <div key={index} className="col-lg-3 col-md-6 col-sm-6 col-6">
-          <ImageComp id={"weighappdzk6edcxp"} path={img} />
+          <img className="img-fluid" src={img} alt="Gallery" />
         </div>
       ))}
     </section>

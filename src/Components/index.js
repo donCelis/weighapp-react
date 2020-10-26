@@ -3,7 +3,6 @@ export { default as Description } from "./Description";
 export { default as Footer } from "./Footer";
 export { default as Gallery } from "./Gallery";
 export { default as Header } from "./Header";
-export { default as ImageComp } from "./ImageComp";
 export { default as InfoProfile } from "./InfoProfile";
 export { default as MapLeaflet } from "./MapLeaflet";
 export { default as Navbar } from "./Navbar";

@@ -1,11 +1,17 @@
 #inicio {
-  background: $imgEscritorio;
+  background: url("../../static/bg/bg_description.jpg") $grisMedio no-repeat
+    fixed center top;
   background-size: cover;
   padding: 20% 0 15%;
-  @include flex($direction:row, $align: center, $wrap: wrap, );
+  @include flex($direction: row, $align: center, $wrap: wrap);
 
   .description {
-    @include flex($direction:row, $align: center, $justify: space-evenly, $wrap: nowrap);
+    @include flex(
+      $direction: row,
+      $align: center,
+      $justify: space-evenly,
+      $wrap: nowrap
+    );
     width: 85%;
     margin: 0 auto;
     &__logo {
@@ -25,7 +31,7 @@
         font-weight: 900;
         font-size: em(25.6px);
       }
-      &--lh-1{
+      &--lh-1 {
         line-height: 1.2;
       }
     }
@@ -37,7 +43,7 @@
       @include flex($direction: column);
       &__text {
         font-size: em(19.2px);
-        &--lh-1{
+        &--lh-1 {
           line-height: 1.5;
         }
       }

@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import "leaflet/dist/leaflet.css";
+import React from "react";
 import iconPin from "../assets/static/pin.svg";
+import "leaflet/dist/leaflet.css";
 import { Icon } from "leaflet";
 import { Map, TileLayer, Marker } from "react-leaflet";
 
@@ -8,7 +8,7 @@ const MapLeaflet = () => {
   const access_token =
     "pk.eyJ1IjoiZG9uY2VsaXMiLCJhIjoiY2tkcnBjZHRvMHMxcDJ4cGJ1Zm8xNGQ5NSJ9.y9K3zBTnDxgUK49q8WhPIA";
 
-  let [data] = useState({
+  let dataMap = {
     position: [6.24822, -75.580032],
     mapUri: `https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}?access_token=${access_token}`,
     attribution: `Alexander Celis`,
@@ -21,9 +21,9 @@ const MapLeaflet = () => {
       iconSize: [35, 35],
       className: "main-class",
     }),
-  });
+  };
 
-  let { position, mapUri, attribution, pin } = data;
+  let { position, mapUri, attribution, pin } = dataMap;
 
   return (
     <section className="map">

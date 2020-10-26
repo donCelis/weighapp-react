@@ -35,7 +35,7 @@ const Form = () => {
       </div>
       <div className="form-group">
         <input
-          onClick={e => sendData(e)}
+          onClick={(e) => sendData(e)}
           type="submit"
           className="w-100 btn btn-info"
           value="Enviar"

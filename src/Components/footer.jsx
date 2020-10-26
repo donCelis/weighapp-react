@@ -1,15 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 
 const Footer = () => {
-  const [data] =  useState({
+  const { year, name } = {
     year: new Date().getFullYear(),
-    name: "Weigh App"
-  })
+    name: "Weigh App",
+  };
 
   return (
     <footer className="text-center p-4">
       <p className="m-0">
-        {data.name} © {data.year} || Todos los derechos reservados
+        {name} © {year} || Todos los derechos reservados
       </p>
     </footer>
   );

@@ -8,14 +8,14 @@
     background: $grisClaro;
     .form-group {
       margin: rem(25px) 0;
-      input{
-        &[type="email"]{
+      input {
+        &[type="email"] {
           padding: rem(25px);
         }
-        &[type="password"]{
+        &[type="password"] {
           padding: rem(25px);
         }
-        &[type="submit"]{
+        &[type="submit"] {
           padding: rem(15px) 0;
         }
       }

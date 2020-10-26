@@ -1,23 +1,21 @@
-import React, { useState } from "react";
+import React from "react";
 import { Socials } from ".";
 
 const InfoProfile = () => {
-  const [data] = useState({
-    info: [
-      {
-        name: "Contacto",
-        date: [`Celular: (+57) 300-875-4649`, "Correo: contacto@weighapps.com"],
-      },
-      {
-        name: "Ubicación",
-        date: [`Calle 54A No. 30 - 01`, "Medellín - Colombia"],
-      },
-    ],
-  });
+  const info = [
+    {
+      name: "Contacto",
+      date: [`Celular: (+57) 300-875-4649`, "Correo: contacto@weighapps.com"],
+    },
+    {
+      name: "Ubicación",
+      date: [`Calle 54A No. 30 - 01`, "Medellín - Colombia"],
+    },
+  ];
 
   return (
     <section className="row justify-content-center">
-      {data.info.map(({ name, date }, index) => (
+      {info.map(({ name, date }, index) => (
         <div key={index} className="col-12 col-md-12 col-lg-4 mb-4">
           <div>
             <h3 className="mb-3">{name}</h3>
