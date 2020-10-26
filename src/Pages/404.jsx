@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Image } from "cloudinary-react";
 import image404 from "../assets/static/error-404.svg";
 import { Preloader } from "../components";
 
@@ -12,7 +11,7 @@ const Error404 = () => {
           <div className="row no-gutters justify-content-center align-items-center">
             <div className="col-sm-12 col-md-8 col-lg-6">
               <div className="error404_element">
-                <Image className="img-fluid" src={image404} />
+                <img className="img-fluid" src={image404} alt="Error 404"/>
                 <h5 className="my-4 mb-0">Página no encontrada.</h5>
                 <Link to="/" className="btn btn-info">
                   Home
