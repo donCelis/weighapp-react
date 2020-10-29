@@ -14,6 +14,8 @@ export { default as Socials } from "./Socials";
 
 //Components to login
 export { default as Form } from "./Form";
+export { default as FormFeature } from "./FormFeature";
+export { default as SocialsNew } from "./SocialsNew";
 
 //Components to dashboard
 export { default as UserMenu } from "./UserMenu";
