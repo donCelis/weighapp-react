@@ -1,5 +1,3 @@
-import React from "react";
-
 const SectionHome = ({ name = "", description = "", children = "" }) => (
   <section id={name} className="py-5">
     <div className="container text-center">

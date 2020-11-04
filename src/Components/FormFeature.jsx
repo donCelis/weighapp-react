@@ -1,4 +1,3 @@
-import React from "react";
 import log from "../assets/static/log.svg";
 import register from "../assets/static/register.svg";
 import { SocialsNew } from ".";

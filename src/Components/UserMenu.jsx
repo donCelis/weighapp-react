@@ -1,5 +1,3 @@
-import React from "react";
-
 const UserMenu = () => {
   return (
     <div className="menu navbar-collapse collapse" id="mobile">

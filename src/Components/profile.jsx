@@ -1,4 +1,3 @@
-import React from "react";
 import user from "../assets/static/team_1.jpg";
 
 const Profile = () => (

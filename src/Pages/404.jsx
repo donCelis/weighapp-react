@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import image404 from "../assets/static/error-404.svg";
 import { Preloader } from "../components";

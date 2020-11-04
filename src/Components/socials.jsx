@@ -1,5 +1,3 @@
-import React from "react";
-
 const Socials = () => {
   const { fb, what, insta } = {
     fb: "https://www.facebook.com/d0nCelis",

@@ -1,4 +1,3 @@
-import React from "react";
 import iconPin from "../assets/static/pin.svg";
 import "leaflet/dist/leaflet.css";
 import { Icon } from "leaflet";

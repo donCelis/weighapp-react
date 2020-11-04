@@ -1,4 +1,3 @@
-import React from "react";
 import { Preloader } from "../components";
 
 const Reports = () => {

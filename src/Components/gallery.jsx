@@ -1,4 +1,3 @@
-import React from "react";
 import small_1 from "../assets/static/small/small_1.png";
 import small_2 from "../assets/static/small/small_2.png";
 import small_3 from "../assets/static/small/small_3.png";

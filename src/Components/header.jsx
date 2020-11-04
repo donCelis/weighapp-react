@@ -1,5 +1,3 @@
-import React from "react";
-
 const Header = ({ children }) => {
   const addClass = (e) => {
     e.currentTarget.classList.toggle("is-active");

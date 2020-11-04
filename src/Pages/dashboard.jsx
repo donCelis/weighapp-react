@@ -1,4 +1,3 @@
-import React from "react";
 import { Header, Preloader, UserMenu } from "../components";
 
 const Dashboard = () => {

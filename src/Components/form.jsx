@@ -1,5 +1,3 @@
-import React from "react";
-
 const Form = () => {
   const sendData = (e) => {
     e.preventDefault();
